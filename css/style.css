@@ -1,0 +1,20 @@
+.navbar-custom {
+  background-color: #104579;
+}
+.container h1{
+  color: white;
+}
+#title{
+ color: #104579;
+}
+
+#title a i {
+  color: rgb(165, 67, 67);
+  margin-left: 15px; 
+}
+.text-reset{
+  text-decoration: none;
+}
+footer{
+    background-color: #0e4a7c  ; 
+}
