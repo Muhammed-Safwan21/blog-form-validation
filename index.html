@@ -32,12 +32,14 @@
             <div class="form-field d-flex align-items-center">
                 <span class="fas fa-key"></span>
                 <input id="password" type="password" name="newPassword" placeholder="Password" onkeyup="validatePassword()">
+                <i class="fas fa-eye-slash" style="margin-right: 10px;" id="togglePassword"></i>
             </div>
 
             <span class="error-message" id="confirmPassword-error"></span>
             <div class="form-field d-flex align-items-center">
                 <span class="fas fa-key"></span>
                 <input id="confirmPassword" type="password" placeholder="Confirm Password" onkeyup="validateConfirm()">
+                <i class="fas fa-eye-slash" style="margin-right: 10px;" id="toggleConfirm"></i>
             </div>
 
             <span class="error-message" id="submit-error"></span>
@@ -45,7 +47,7 @@
            
         </form>
         <div class="text-center fs-6">
-            <a href="./forms/signin.html">Alrady have an account ?</a>
+            <a href="./forms/signin.html">Already have an account ?  Sign In</a>
         </div>
     </div>
     <script src="./forms/signup.js"></script>
