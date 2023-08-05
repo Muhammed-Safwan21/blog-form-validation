@@ -24,7 +24,7 @@ function validateEmail() {
     emailError.innerHTML = "Email cannot be blank!!";
     return false;
   } else if (!email.value.match(regEx)) {
-    emailError.innerHTML = "inavalid email";
+    emailError.innerHTML = "invalid email";
     return false;
   } else {
     emailError.innerHTML = "";
